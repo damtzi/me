@@ -22,7 +22,7 @@
 		<a href="https://www.instagram.com/damitzi__/">
 			<Instagram />
 		</a>
-        <a href="https://music.apple.com/profile/damitzi__">
+		<a href="https://music.apple.com/profile/damitzi__">
 			<Music />
 		</a>
 		<a href="mailto:damian.tziamtzis@gmail.com">
@@ -36,6 +36,8 @@
 		</a>
 	</div>
 	<span class="text-center"
-		>Damian Tziamtzis &copy; {new Date().getFullYear()} Made in Gdynia, PL</span
-	>
+		>Damian Tziamtzis &copy; {new Date().getFullYear()} Made in
+		<span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-yellow-400">Gdynia</span>, 
+        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-red-700">PL</span>
+	</span>
 </footer>

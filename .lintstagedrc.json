@@ -1,6 +1,3 @@
 {
-    "src/**/*.{ts,svelte}": [
-        "eslint --fix",
-        "prettier --write"
-    ]
+	"src/**/*.{ts,svelte}": ["eslint --fix", "prettier --write"]
 }

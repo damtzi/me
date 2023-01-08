@@ -10,11 +10,12 @@
 <footer
 	class="py-6 w-full flex flex-col gap-6 border-t border-t-slate-900 dark:border-t-white text-slate-900 dark:text-white"
 >
-	<span class="text-center"
-		>Powered by
-		<a href="https://kit.svelte.dev/" class="text-blue-400">SvelteKit</a>, styled by
-		<a href="https://tailwindcss.com/" class="text-blue-400">tailwindcss</a></span
-	>
+	<span class="text-center">
+		Powered by
+		<a href="https://kit.svelte.dev/" class="text-blue-400">SvelteKit</a>,
+		styled by
+		<a href="https://tailwindcss.com/" class="text-blue-400">tailwindcss</a>
+	</span>
 	<div class="flex gap-6 justify-center">
 		<a href="https://twitter.com/damitzi__">
 			<Twitter />
@@ -35,9 +36,17 @@
 			<LinkedIn />
 		</a>
 	</div>
-	<span class="text-center"
-		>Damian Tziamtzis &copy; {new Date().getFullYear()} Made in
-		<span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-yellow-400">Gdynia</span>, 
-        <span class="font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-red-700">PL</span>
+	<span class="text-center">
+		Damian Tziamtzis &copy; {new Date().getFullYear()} Made in
+		<span
+			class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-yellow-400"
+		>
+			Gdynia
+		</span>,
+		<span
+			class="font-bold text-transparent bg-clip-text bg-gradient-to-b from-white to-red-700"
+		>
+			PL
+		</span>
 	</span>
 </footer>

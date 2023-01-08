@@ -5,7 +5,7 @@
 	const handleToggleTheme = () => {
 		darkMode = !darkMode;
 
-        // Set the value in local storage whenever user toggles themes
+		// Set the value in local storage whenever user toggles themes
 		localStorage.setItem('theme', darkMode ? 'dark' : 'light');
 
 		darkMode
@@ -17,7 +17,8 @@
 	if (browser) {
 		if (
 			localStorage.theme === 'dark' ||
-			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			(!('theme' in localStorage) &&
+				window.matchMedia('(prefers-color-scheme: dark)').matches)
 		) {
 			document.documentElement.classList.add('dark');
 			darkMode = true;
@@ -29,7 +30,12 @@
 </script>
 
 <div>
-	<input checked={darkMode} on:click={handleToggleTheme} type="checkbox" id="theme-toggle" />
+	<input
+		checked={darkMode}
+		on:click={handleToggleTheme}
+		type="checkbox"
+		id="theme-toggle"
+	/>
 	<label for="theme-toggle" />
 </div>
 

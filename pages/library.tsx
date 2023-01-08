@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../component/Layout";
+import Layout from "../components/Layout";
 
 const Library = () => {
     return (

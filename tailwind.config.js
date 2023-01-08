@@ -7,7 +7,12 @@ module.exports = {
         "./app/**/*.{js,ts,jsx,tsx}"
     ],
     theme: {
-        extend: {}
+        extend: {
+            fontFamily: {
+                sans: ["var(--font-ibmPlexSans)"],
+                mono: ["var(--font-ibmPlexMono)"]
+            }
+        }
     },
     plugins: []
 };
